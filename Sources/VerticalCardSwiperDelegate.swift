@@ -62,10 +62,10 @@ import UIKit
 
     /**
      Tells the delegate when the user taps a card.
-     - parameter verticalCardSwiperView: The `VerticalCardSwiperView` that displays the cardcells.
+     - parameter card: The CardCell that the user did currently tap.
      - parameter index: The index of the CardCell that was tapped.
      */
-    @objc optional func didTapCard(verticalCardSwiperView: VerticalCardSwiperView, index: Int)
+    @objc optional func didTapCard(card: CardCell, index: Int)
 
     /**
      Tells the delegate when the user holds a card.

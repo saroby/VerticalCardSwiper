@@ -212,7 +212,7 @@ class ViewController: UIViewController, VerticalCardSwiperDelegate {
         // Called when the user starts dragging a card to the side (optional).
     }
     
-    func didTapCard(verticalCardSwiperView: VerticalCardSwiperView, index: Int) {
+    func didTapCard(card: CardCell, index: Int) {
     
         // Tells the delegate when the user taps a card (optional).
     }
